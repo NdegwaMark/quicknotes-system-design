@@ -29,5 +29,5 @@ Since the module structure utilizes standard ECMAScript delivery behaviors, open
 ## Conceptual Architectural Insights & Lessons Documented Summary
 * **Stateless Application Compute Engineering Node Practices:** Keeping web application compute node workers free of permanent data storage makes horizontal scaling straightforward. This allows automated infrastructure to spin up additional server instances instantly to match incoming traffic spikes.
 * **Read-Write Splitting for Efficient Database Scaling:** Directing resource-heavy analytics queries to dedicated read replicas ensures that the primary database stays responsive for critical write transactions.
-* **The Importance of Smart Failover Management:** Building reliable high-availability software requires automated health checks and failover routes at every layer of the infrastructure. This prevents isolated hardware drops from turning into full system outage.
+* **The Importance of Smart Failover Management:** Building reliable high-availability software requires automated health checks and failover routes at every layer of the infrastructure. This prevents isolated hardware drops from turning into full system outages.
 # quicknotes-system-design
